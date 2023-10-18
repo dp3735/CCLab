@@ -31,4 +31,5 @@ function flower(x, y, size, speed) {
         noStroke();
         ellipse(0, 0, size, size * 0.07);
     }
+
 }
