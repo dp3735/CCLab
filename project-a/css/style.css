@@ -1,3 +1,14 @@
 body {
-    background-color: aqua;
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+p {
+    display: inline;
+    font-size: 30px;
+    /* width: 300px; */
+    text-align: left;
+    word-spacing: 7cm;
 }
