@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/lib/p5.js"></script>
+    <script src="js/lib/p5.sound.js"></script>
+</head>
+
+<body class="body">
+    <div class="p5jsdraw">
+
+        <h1>A brief overview</h1>
+        <p>Humans are born with a limited number of neurons, which is a special cell in the nervous system that can send
+            information through electrical and chemical signals in the brain.
+            Even though the number of neurons in our brain is important, the connections between them are the most
+            crucial. Neuroplasticity is the ability of the brain's physiology to change over time. Neuroplasticity
+            occurs at the beginning of life when the new brain organizes itself. This change can happen throughout
+            adulthood like when we are learning something new. As we learn new skills the connections between the
+            neurons (dendritic branches) develop and grow along with us. The conception and “communication paths” are
+            referred to as neural networks or synapses. When we work these connections, they stronger they become, which
+            allows us brain to intake information better.
+        </p>
+        <div>
+            <script class="CANVAS" src="main.js"></script>
+        </div>
+
+
+    </div>
+
+    <div class="doubleboxes">
+        <img src="https://drive.google.com/uc?export=download&id=1-fQObb_UjSyhviNouoQzEbhWA-IfEiyc" width="500"
+            height="250">
+    </div>
+
+    <div class="text">
+        The brain is naturally divided into many different parts. There are 2 hemisphere, the right and the left. Then
+        there
+        are also 4 main lobes- the occipital, parietal, frontal and temporal lobe. Certain brain regions are the genesis
+        of
+        particular behaviors, cognitions, and emotions. Each lobe has it's own function, look at the diagram on the
+        right to see which lobe controls what function of humans exactly. </div>
+
+
+
+    <div class="bottom">
+        I asked people what the inside of their brain sounds like, here are the responses →
+    </div>
+
+
+    <div class="audio">
+        <audio id="audioNikhi" controls style="display: none;">
+            <source src="https://drive.google.com/uc?export=download&id=1v2NzzzG380Gb_GNOVLtAgj5F33KCpFSB"
+                type="audio/mp3">
+        </audio>
+        <button onclick="playAudio('audioNikhi')">Click Here!</button>
+    </div>
+
+    <div class="audio">
+        <audio id="audioRach" controls style="display: none;">
+            <source src="https://drive.google.com/uc?export=download&id=1JM0R7O16x1c6g8SmnTfl75g6C4bBnaqP"
+                type="audio/mp3">
+        </audio>
+        <button onclick="playAudio('audioRach')">Click Here!</button>
+    </div>
+
+    <div class="audio">
+        <audio id="audioLucas" controls style="display: none;">
+            <source src="https://drive.google.com/uc?export=download&id=1wXSd3rO3s18S0o_7Ug4n3N059BmLi6q0"
+                type="audio/mp3">
+        </audio>
+        <button onclick="playAudio('audioLucas')">Click Here!</button>
+    </div>
+
+    <div class="audio">
+        <audio id="audioDaulet" controls style="display: none;">
+            <!-- Replace YOUR_FILE_ID with the actual file ID from your Google Drive -->
+            <source src="https://drive.google.com/uc?export=download&id=1WMCggXLwRc5_Vcdnx90qNENXVaFt9N6F"
+                type="audio/mp3">
+        </audio>
+        <button onclick="playAudio('audioDaulet')">Click Here!</button>
+    </div>
+
+    <script>
+        function playAudio(audioId) {
+            var audio = document.getElementById(audioId);
+            audio.play();
+        }
+    </script>
+
+    <div class="square"> Notice how different the responses were? Even though this was a fun hypothetical question it
+        shows you how different people think, as a result of our brain physiology</div>
+    <div class="square"> Scroll to the bottom now to make your own face while a tiny ball will reprent how your thoughts
+        jump around on a day to day basis. Press mouse to draw and E to erase</div>
+
+    <div class="long"></div>
+    <div class="long"></div>
+    <div class="long"></div>
+    <div class="long"></div>
+</body>
+
+</html>
