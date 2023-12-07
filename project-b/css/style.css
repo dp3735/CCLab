@@ -134,6 +134,10 @@ button:hover {
     margin: 20px;
 }
 
-.CANVAS {
-    margin-left: -50px;
+.flexbox {
+    position: absolute;
+    top: 800px;
+    margin: 200px;
+    display: flex;
+
 }

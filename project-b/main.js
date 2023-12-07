@@ -2,7 +2,8 @@ let brain;
 let paintbrush;
 
 function setup() {
-    createCanvas(600, 800);
+    let canvas = createCanvas(600, 800);
+    canvas.parent("canvas-container");
     background(0);
     brain = new Mybrain(width / 2, height / 2);
     paintbrush = new Paintbrush(255, 100, 120, 10);
